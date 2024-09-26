@@ -180,4 +180,4 @@ def get_users():
 if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])
 
-with app.app_context():
+# with app.app_context():
