@@ -6,3 +6,4 @@ gunicorn==20.1.0  # For running the app in production
 python-dotenv==0.19.2  # For managing environment variables
 requests==2.26.0  # For making HTTP requests (if needed)
 werkzeug==2.0.3
+authlib
