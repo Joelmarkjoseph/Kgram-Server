@@ -177,11 +177,7 @@ def get_users():
     ]
     return jsonify(users_list), 200 
 
-if __name__ == '__main__':
-    # Create the upload directory if it does not exist
-    if not os.path.exists(app.config['UPLOAD_FOLDER']):
-        os.makedirs(app.config['UPLOAD_FOLDER'])
-    
-    with app.app_context():
-        db.create_all()  # Create tables if they don't exist
-    # app.run(debug=True)
+if not os.path.exists(app.config['UPLOAD_FOLDER']):
+    os.makedirs(app.config['UPLOAD_FOLDER'])
+
+with app.app_context():
