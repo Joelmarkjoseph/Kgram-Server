@@ -8,3 +8,4 @@ requests==2.26.0  # For making HTTP requests (if needed)
 werkzeug==2.0.3
 authlib
 jwt
+SQLAlchemy==1.4.46
