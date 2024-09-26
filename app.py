@@ -4,7 +4,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 from flask import Flask, request, jsonify, redirect, url_for, session
-from authlib.integrations.flask_client import OAuth
+# from authlib.integrations.flask_client import OAuth
 import jwt
 from models import User,db
 from functools import wraps
