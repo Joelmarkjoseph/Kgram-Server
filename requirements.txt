@@ -1,0 +1,7 @@
+Flask==2.0.3
+Flask-SQLAlchemy==2.5.1
+Flask-Cors==3.0.10
+Flask-OAuthlib==0.9.6
+gunicorn==20.1.0  # For running the app in production
+python-dotenv==0.19.2  # For managing environment variables
+requests==2.26.0  # For making HTTP requests (if needed)
